@@ -49,38 +49,38 @@ Artificial intelligence is a field dedicated to developing machines that can per
 
 **Example 2: Language Translation**
 
-Prompt:
+**Prompt:**
 ```
 Translate the following English sentence to French:
 
 "The weather is beautiful today."
 ```
 
-Model Output:
+**Model Output:**
 Le temps est magnifique aujourd'hui.
 
 ---
 
 **Example 3: Sentiment Analysis**
 
-Prompt:
+**Prompt:**
 ```
 What is the sentiment of this review? "The product arrived late and was damaged. Very disappointed."
 ```
 
-Model Output:
+**Model Output:**
 Negative
 
 ---
 
 **Example 4: Code Generation**
 
-Prompt:
+**Prompt:**
 ```
 Write a Python function that returns the square of a number.
 ```
 
-Model Output:
+**Model Output:**
 ```python
 def square(number):
   return number * number
@@ -90,12 +90,12 @@ def square(number):
 
 **Example 5: Question Answering**
 
-Prompt:
+**Prompt:**
 ```
 Who wrote the play "Romeo and Juliet"?
 ```
 
-Model Output:
+**Model Output:**
 William Shakespeare
 
 ---
