@@ -33,15 +33,17 @@ Below are five examples. Each shows the input prompt and the model output as it 
 
 **Example 1: Text Summarization**
 
-Prompt:
+**Prompt:**
 ```
 Summarize the following paragraph in one sentence:
 
 "Artificial intelligence is a rapidly evolving field that focuses on creating machines capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding."
 ```
 
-Model Output:
+**Model Output:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Artificial intelligence is a field dedicated to developing machines that can perform tasks requiring human-like intelligence, such as learning and problem-solving.
+</div>
 
 ---
 
