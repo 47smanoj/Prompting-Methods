@@ -125,7 +125,7 @@ Below are several examples. Each shows the input prompt and the model output, st
 
 **Example 1: Language Translation**
 
-Prompt:
+**Prompt:**
 ```
 Translate to French:
 - 'Good morning.' → 'Bonjour.'
@@ -133,50 +133,52 @@ Translate to French:
 - 'The weather is nice today.' →
 ```
 
-Model Output:</b><br>
-<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;"><b>Model Output:</b><br>
+**Model Output:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Le temps est agréable aujourd'hui.
 </div>
 
 ---
 
 **Example 2: Sentiment Classification**
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#f9f9f9; margin: 8px 0;"><b>Prompt:</b><br>
-Classify the sentiment:<br>
+**Prompt:**
+```
+Classify the sentiment:
 - "I love this product!" → Positive<br>
 - "This is terrible." → Negative<br>
 - "It's okay, not great." →
-</div>
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;"><b>Model Output:</b><br>
+```
+
+<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;">
 Neutral
 </div>
 
 ---
 
 **Example 3: Text Summarization**
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#f9f9f9; margin: 8px 0;"><b>Prompt:</b><br>
-Summarize:<br>
+**Prompt:**
+```
+Summarize:
 - "The cat sat on the mat." → "A cat is on a mat."<br>
 - "The dog barked at the mailman." → "A dog barked at a mailman."<br>
 - "The sun rises in the east and sets in the west." →
-</div>
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;"><b>Model Output:</b><br>
+```
+
+<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;">
 The sun rises in the east and sets in the west.
 </div>
 
 ---
 
 **Example 4: Math Pattern Induction**
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#f9f9f9; margin: 8px 0;"><b>Prompt:</b><br>
-What is the next number in the sequence?<br>
-- 2, 4, 6, 8, ? → 10<br>
-- 5, 10, 15, 20, ? → 25<br>
+**Prompt:**
+```
+What is the next number in the sequence?
+- 2, 4, 6, 8, ? → 10
+- 5, 10, 15, 20, ? → 25
 - 3, 6, 9, 12, ? →
-15
-15
-</div>
+```
 <div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
-<div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;"><b>Model Output:</b><br>
 15
 </div>
 
@@ -195,25 +197,37 @@ Encourage the model to reason step-by-step.
 
 
 **Prompt Example 1:**
+```
 Q: If there are 3 apples and you take away 2, how many do you have?
 A: Let's think step by step. There are 3 apples. If I take away 2, I have 2 apples.
+```
 
 **Model Output 1:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 2 apples.
+</div>
 
 **Prompt Example 2:**
+```
 Q: John has 5 books. He buys 3 more and gives 2 to his friend. How many books does he have now?
 A: Let's break it down. John starts with 5 books. He buys 3 more, so now he has 8 books. He gives 2 away, so 8 - 2 = 6 books.
+```
 
 **Model Output 2:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 6 books.
+</div>
 
 **Prompt Example 3:**
+```
 Q: The train leaves at 3 PM and the journey takes 2 hours and 30 minutes. What time does it arrive?
 A: The train leaves at 3 PM. Adding 2 hours makes it 5 PM. Adding 30 minutes makes it 5:30 PM.
+```
 
 **Model Output 3:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 5:30 PM.
+</div>
 
 **Effectiveness:**  
 - **Best for:** Reasoning, math, logic, and multi-step problems.
@@ -228,27 +242,39 @@ Give explicit instructions on how to perform the task.
 
 
 **Prompt Example 1:**
+```
 Summarize the following paragraph in one sentence: "Artificial intelligence is transforming industries by automating tasks and providing insights from data."
+```
 
 **Model Output 1:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 AI is transforming industries through automation and data insights.
+</div>
 
 **Prompt Example 2:**
+```
 Write a polite email declining a meeting invitation.
+```
 
 **Model Output 2:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Dear [Name],
 Thank you for the invitation. Unfortunately, I am unable to attend the meeting. I appreciate your understanding.
 Best regards,
 [Your Name]
+</div>
 
 **Prompt Example 3:**
+```
 List three key features of electric cars.
+```
 
 **Model Output 3:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 - Zero emissions
 - Quiet operation
 - Instant torque
+</div>
 
 **Effectiveness:**  
 - **Best for:** Tasks requiring specific formats or constraints.
@@ -263,22 +289,35 @@ Assign a role or persona to the model.
 
 
 **Prompt Example 1:**
+```
 You are a helpful assistant. Explain quantum computing in simple terms.
+```
 
 **Model Output 1:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Quantum computing uses the principles of quantum mechanics to process information in a way that can be much faster than traditional computers for certain tasks.
+</div>
 
 **Prompt Example 2:**
+```
 You are a professional chef. Describe how to make a perfect omelette.
+```
 
 **Model Output 2:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 To make a perfect omelette, beat eggs with a pinch of salt, pour into a hot nonstick pan, and gently stir until just set. Fold and serve immediately.
+</div>
 
 **Prompt Example 3:**
+```
 You are a history teacher. Briefly explain the significance of the Magna Carta.
+```
 
 **Model Output 3:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 The Magna Carta, signed in 1215, limited the power of the English king and laid the foundation for modern democracy and legal rights.
+</div>
+
 
 **Effectiveness:**  
 - **Best for:** Adapting tone, style, or expertise.
@@ -293,22 +332,37 @@ Provide background information or context.
 
 
 **Prompt Example 1:**
+```
 Given the following data about climate change, write a summary: "Global temperatures have risen by 1.2°C since 1880. Sea levels are rising, and extreme weather events are becoming more frequent."
+```
 
 **Model Output 1:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Global warming has led to higher temperatures, rising sea levels, and more frequent extreme weather events.
+</div>
+
 
 **Prompt Example 2:**
+```
 Context: The company has recently launched a new product line targeting young adults. Task: Write a marketing slogan for this product.
+```
 
 **Model Output 2:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 "Unleash Your Potential with Our New Collection!"
+</div>
+
 
 **Prompt Example 3:**
+```
 Background: The patient has a history of hypertension and diabetes. Question: What are important considerations for their treatment?
+```
 
 **Model Output 3:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 Monitor blood pressure and blood sugar closely, adjust medications as needed, and encourage lifestyle changes.
+</div>
+
 
 **Effectiveness:**  
 - **Best for:** Tasks requiring understanding of context or background.
@@ -323,30 +377,42 @@ Specify the desired format or constraints for the output.
 
 
 **Prompt Example 1:**
+```
 List three benefits of exercise in bullet points.
+```
 
 **Model Output 1:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 - Improves cardiovascular health
 - Boosts mental well-being
 - Increases energy levels
+</div>
+
 
 **Prompt Example 2:**
+```
 Provide a JSON object with the following information: name, age, and occupation for a fictional character.
+```
 
 **Model Output 2:**
+<div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 {
   "name": "Alex Smith",
   "age": 30,
   "occupation": "Engineer"
 }
+</div>
 
 **Prompt Example 3:**
+```
 Write a Python function that returns the square of a number. Only output the code.
+```
 
 **Model Output 3:**
+``` python
 def square(n):
     return n * n
-
+```
 **Effectiveness:**  
 - **Best for:** Structured outputs (lists, tables, code).
 - **Limitations:** May require re-prompting for strict adherence.
