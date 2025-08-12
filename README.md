@@ -146,11 +146,11 @@ Le temps est agréable aujourd'hui.
 **Prompt:**
 ```
 Classify the sentiment:
-- "I love this product!" → Positive<br>
-- "This is terrible." → Negative<br>
+- "I love this product!" → Positive
+- "This is terrible." → Negative
 - "It's okay, not great." →
 ```
-
+**Model Output:**
 <div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;">
 Neutral
 </div>
@@ -161,11 +161,11 @@ Neutral
 **Prompt:**
 ```
 Summarize:
-- "The cat sat on the mat." → "A cat is on a mat."<br>
-- "The dog barked at the mailman." → "A dog barked at a mailman."<br>
+- "The cat sat on the mat." → "A cat is on a mat."
+- "The dog barked at the mailman." → "A dog barked at a mailman."
 - "The sun rises in the east and sets in the west." →
 ```
-
+**Model Output:**
 <div style="border:1px solid #ccc; border-radius:6px; padding: 12px; background:#ffffff; margin: 8px 0;">
 The sun rises in the east and sets in the west.
 </div>
@@ -180,6 +180,7 @@ What is the next number in the sequence?
 - 5, 10, 15, 20, ? → 25
 - 3, 6, 9, 12, ? →
 ```
+**Model Output:**
 <div style="border:1px solid #ccc; border-radius:6px; padding: 16px 12px; background:#ffffff; margin: 8px 0;">
 15
 </div>
@@ -411,7 +412,7 @@ Write a Python function that returns the square of a number. Only output the cod
 ```
 
 **Model Output 3:**
-``` python
+``` 
 def square(n):
     return n * n
 ```
